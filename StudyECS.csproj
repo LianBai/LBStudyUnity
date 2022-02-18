@@ -677,6 +677,15 @@
  <Reference Include="Unity.Entities">
  <HintPath>F:/MyPrograme/LBStudyUnity/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>F:/MyPrograme/LBStudyUnity/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Transforms">
+ <HintPath>F:/MyPrograme/LBStudyUnity/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rendering.Hybrid">
+ <HintPath>F:/MyPrograme/LBStudyUnity/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>F:/MyPrograme/LBStudyUnity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>

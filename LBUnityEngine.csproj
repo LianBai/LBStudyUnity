@@ -53,9 +53,6 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Engine\InspectorExtend\UIAnimManager.cs" />
-     <Compile Include="Assets\Scripts\Engine\StudyECS\SimpleECS\SimpleEcsController.cs" />
-     <Compile Include="Assets\Scripts\Engine\StudyECS\SimpleECS\SimpleEcsComp.cs" />
-     <Compile Include="Assets\Scripts\Engine\StudyECS\SimpleECS\SimpleEcsSystem.cs" />
      <None Include="Assets\Scripts\Engine\LBUnityEngine.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.18f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

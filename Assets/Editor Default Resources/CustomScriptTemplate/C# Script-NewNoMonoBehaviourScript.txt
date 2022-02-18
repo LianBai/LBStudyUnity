@@ -1,0 +1,27 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace #NAMESPACE#
+{
+    public class #SCRIPTNAME#
+    {
+        #region 字段
+
+        
+
+        #endregion
+        
+        #region 属性
+
+        
+
+        #endregion
+        
+        #region 方法
+        
+        
+        
+        #endregion
+    }
+}

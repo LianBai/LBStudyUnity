@@ -1,7 +1,12 @@
+/.idea/
 /Library/
 /Logs/
 /Temp/
+/obj/
 /UserSettings/
+/LBUnityEditor.csproj
+/LBUnityEngine.csproj
+/StudyECS.csproj
 /Assembly-CSharp.csproj
 /Assembly-CSharp-Editor.csproj
 /LBStudyUnity.sln

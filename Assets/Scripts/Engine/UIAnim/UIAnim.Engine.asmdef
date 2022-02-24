@@ -1,14 +1,10 @@
 {
-    "name": "LBUnityEditor",
+    "name": "InspectorExtend",
     "rootNamespace": "",
     "references": [
-        "GUID:6c17aa61e6944784ebe46ec3e7810ead",
-        "GUID:343deaaf83e0cee4ca978e7df0b80d21",
-        "GUID:14147761a3fee824aa8dfa651acf7d2a"
+        "GUID:6c17aa61e6944784ebe46ec3e7810ead"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

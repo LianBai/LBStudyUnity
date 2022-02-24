@@ -57,7 +57,7 @@ namespace Editor.InspectorExtend
             {
                 EditorGUILayout.PropertyField(m_IsDefReversed);                 //绘制m_IsDefReversed属性
                 EditorGUILayout.PropertyField(m_IsDefLoop);                     //绘制m_IsDefLoop属性
-                EditorGUILayout.PropertyField(m_IsDefAutoPlay);                    //绘制m_IsAutoPlay属性
+                EditorGUILayout.PropertyField(m_IsDefAutoPlay);                 //绘制m_IsAutoPlay属性
             }
             if (EditorGUI.EndChangeCheck())                                     //如果发生变化为true
             {

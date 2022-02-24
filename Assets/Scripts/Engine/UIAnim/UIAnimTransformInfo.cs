@@ -1,12 +1,15 @@
-﻿using UnityEngine;
+﻿using System;
+using Engine.UIAnim;
+using UnityEngine;
 
 namespace Engine.InspectorExtend
 {
-    public class UIAnimTransformInfo
+    [Serializable]
+    public class UIAnimTransformInfo : UIAnimInfoBase
     {
         #region 字段
         
-        private Transform m_Transform;
+        public Transform m_Transform;
 
         #endregion
         

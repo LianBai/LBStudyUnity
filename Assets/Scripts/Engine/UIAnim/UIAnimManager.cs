@@ -23,10 +23,13 @@ namespace Engine.InspectorExtend
         public bool m_IsDefReversed;                                                //默认的是否倒放
         public bool m_IsDefLoop;                                                    //默认的是否循环
         public bool m_IsDefAutoPlay;                                                //默认的是否自动播放
+
+        public UIAnimTransformInfo m_UIAnimTransformInfo;                          //Transform动画信息
         
         [NonSerialized]
         public float m_CurTime;                                                     //当前时间
         [NonSerialized]
         public UIAnimPlayState m_UIAnimPlayState = UIAnimPlayState.Stop;            //当前状态
+        
     }
 }

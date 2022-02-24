@@ -14,6 +14,7 @@ namespace Editor.InspectorExtend
         private SerializedProperty m_IsDefReversed;                                 //是否倒放
         private SerializedProperty m_IsDefLoop;                                     //是否循环
         private SerializedProperty m_IsDefAutoPlay;                                 //是否自动播放
+        private SerializedProperty m_UIAnimTransformInfo;                           //Transform动画信息
 
         #endregion
         
@@ -21,11 +22,12 @@ namespace Editor.InspectorExtend
 
         private void OnEnable()
         {
-            m_UIAnimManager = (UIAnimManager) target;                               //获取绑定的脚本
+            m_UIAnimManager = (UIAnimManager) target;                                               //获取绑定的脚本
             
-            m_IsDefReversed = serializedObject.FindProperty("m_IsDefReversed");     //获取m_IsDefReversed字段
-            m_IsDefLoop = serializedObject.FindProperty("m_IsDefLoop");             //获取m_IsDefLoop字段
-            m_IsDefAutoPlay = serializedObject.FindProperty("m_IsDefAutoPlay");     //获取m_IsDefAutoPlay字段
+            m_IsDefReversed = serializedObject.FindProperty("m_IsDefReversed");                     //获取m_IsDefReversed字段
+            m_IsDefLoop = serializedObject.FindProperty("m_IsDefLoop");                             //获取m_IsDefLoop字段
+            m_IsDefAutoPlay = serializedObject.FindProperty("m_IsDefAutoPlay");                     //获取m_IsDefAutoPlay字段
+            m_UIAnimTransformInfo = serializedObject.FindProperty("m_UIAnimTransformInfo");         //获取m_UIAnimTransformInfo字段
         }
 
         /// <summary>
@@ -58,6 +60,7 @@ namespace Editor.InspectorExtend
                 EditorGUILayout.PropertyField(m_IsDefReversed);                 //绘制m_IsDefReversed属性
                 EditorGUILayout.PropertyField(m_IsDefLoop);                     //绘制m_IsDefLoop属性
                 EditorGUILayout.PropertyField(m_IsDefAutoPlay);                 //绘制m_IsAutoPlay属性
+                EditorGUILayout.PropertyField(m_UIAnimTransformInfo);           //绘制m_UIAnimTransformInfo属性
             }
             if (EditorGUI.EndChangeCheck())                                     //如果发生变化为true
             {

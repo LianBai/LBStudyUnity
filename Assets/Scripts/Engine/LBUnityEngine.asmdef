@@ -1,6 +1,6 @@
 {
     "name": "LBUnityEngine",
-    "rootNamespace": "",
+    "rootNamespace": "LBUnityEngine",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

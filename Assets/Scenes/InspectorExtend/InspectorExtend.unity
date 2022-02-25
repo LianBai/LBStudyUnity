@@ -239,6 +239,8 @@ MonoBehaviour:
   m_IsDefReversed: 0
   m_IsDefLoop: 0
   m_IsDefAutoPlay: 0
+  m_UIAnimTransformInfo:
+    m_Transform: {fileID: 0}
 --- !u!4 &2047973352
 Transform:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 {
     "name": "StudyECS",
-    "rootNamespace": "",
+    "rootNamespace": "StudyECS",
     "references": [
         "GUID:6c17aa61e6944784ebe46ec3e7810ead",
         "GUID:734d92eba21c94caba915361bd5ac177",

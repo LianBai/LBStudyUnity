@@ -1,6 +1,6 @@
 {
-    "name": "InspectorExtend.Editor",
-    "rootNamespace": "",
+    "name": "UIAnim.Editor",
+    "rootNamespace": "UIAnim.Editor",
     "references": [
         "GUID:14147761a3fee824aa8dfa651acf7d2a"
     ],
